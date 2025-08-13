@@ -38,6 +38,7 @@ A Python tool to perform threat intelligence lookups using Abuse.ch APIs: Threat
     ```bash
     python threat_lookup.py
 6.  **Use the interactive menu to search for:**
+ 
   IP address
 
    Domain
