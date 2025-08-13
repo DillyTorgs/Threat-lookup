@@ -27,16 +27,22 @@ A Python tool to perform threat intelligence lookups using Abuse.ch APIs: Threat
    ```bash
    pip install requests prettytable
 
-  **Usage**
+4. **Usage**
   **Open threat_lookup.py and insert your API keys:**
    ```bash
    THREATFOX_AUTH_KEY = "YOUR_THREATFOX_KEY"
    URLHAUS_AUTH_KEY = "YOUR_URLHAUS_KEY"
    MALWAREBAZAAR_AUTH_KEY = "YOUR_MALWAREBAZAAR_KEY"
    ---
-   **Run the tool**
+ 5. **Run the tool**
+    ```bash
+    python threat_lookup.py
+6.  **Use the interactive menu to search for:**
+  IP address
 
+   Domain
 
+   URL
 
-
-
+   Malware hash
+    
