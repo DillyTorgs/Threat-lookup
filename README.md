@@ -1,4 +1,37 @@
-Open threat_lookup.py and replace the placeholders with your own API keys:
+Threat Intelligence Lookup Tool
+
+
+A Python-based threat intelligence tool that queries Abuse.ch APIs: ThreatFox, URLhaus, and MalwareBazaar. Quickly check IPs, domains, URLs, and malware hashes, and export results to CSV.
+
+Features
+✅ Search ThreatFox for IPs or domains
+
+✅ Search URLhaus for malicious URLs
+
+✅ Search MalwareBazaar for malware hashes
+
+✅ Interactive menu-driven interface
+
+✅ PrettyTable output for readability
+
+✅ Export results to CSV
+
+Demo Screenshot
+
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/threat-intel-lookup.git
+cd threat-intel-lookup
+Install dependencies:
+
+bash
+Copy code
+pip install requests prettytable
+Usage
+Add your API keys in threat_lookup.py:
 
 python
 Copy code
@@ -10,7 +43,7 @@ Run the script:
 bash
 Copy code
 python threat_lookup.py
-Follow the interactive menu to search by:
+Choose an option from the menu:
 
 IP address
 
@@ -20,23 +53,10 @@ URL
 
 Malware hash
 
-Optionally save results to a CSV file.
+Optionally save results to CSV.
 
-Validation
-The tool validates:
-
-IPv4 addresses
-
-Domains
-
-URLs
-
-SHA256 malware hashes
-
-Security Note
-Do not commit your personal API keys. Leave placeholders in the repository and have each user add their own keys locally.
+API Key Security
+Important: Do not commit your API keys to GitHub. Leave placeholders in the repository, and have each user add their own keys locally.
 
 License
 This project is licensed under the MIT License.
-
-If you want, I can also make a short version with badges and screenshots so it looks extra professional on GitHub. Do you want me to do that?
