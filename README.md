@@ -16,7 +16,7 @@ A Python tool to perform threat intelligence lookups using Abuse.ch APIs: Threat
 
 * Export results to CSV
 
-**Installation**
+Installation
 Clone the repository: 
  ```bash
 git clone https://github.com/yourusername/threat-intel-lookup.git
