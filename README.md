@@ -15,3 +15,9 @@ A Python tool to perform threat intelligence lookups using Abuse.ch APIs: Threat
 * PrettyTable output for readability
 
 * Export results to CSV
+
+Installation
+Clone the repository: 
+ ```bash
+git clone https://github.com/yourusername/threat-intel-lookup.git
+cd threat-intel-lookup
