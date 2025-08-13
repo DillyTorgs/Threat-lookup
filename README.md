@@ -16,12 +16,24 @@ A Python tool to perform threat intelligence lookups using Abuse.ch APIs: Threat
 
 * Export results to CSV
 
-## Installation
-## Clone the repository: 
- ```bash
-git clone https://github.com/yourusername/threat-intel-lookup.git
-cd threat-intel-lookup
+1. **Installation**
+2. **Clone the repository:** 
+   ```bash
+   git clone https://github.com/yourusername/threat-intel-lookup.git
+   cd threat-intel-lookup
+---
 
-## Install required dependencies:
- ```bash
-pip install requests prettytable
+3. **Install required dependencies**
+   ```bash
+   pip install requests prettytable
+
+  **Usage**
+  ## Open threat_lookup.py and insert your API keys:
+   ```bash
+   THREATFOX_AUTH_KEY = "YOUR_THREATFOX_KEY"
+   URLHAUS_AUTH_KEY = "YOUR_URLHAUS_KEY"
+   MALWAREBAZAAR_AUTH_KEY = "YOUR_MALWAREBAZAAR_KEY"
+---
+  ## Run the tool
+
+
