@@ -46,4 +46,14 @@ A Python tool to perform threat intelligence lookups using Abuse.ch APIs: Threat
    URL
 
    Malware hash
-    
+
+
+   ## Security Note 
+   Do not commit your API keys to GitHub. Use placeholders and have each user insert their own keys locally.
+
+   ## License 
+   This project is licensed under the MIT License
+
+
+
+   
